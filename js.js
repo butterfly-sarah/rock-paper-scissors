@@ -118,7 +118,7 @@ function play(type){
             randomNum="paper";
             if(type=="scissors"){
                 status="win";
-                icon="sucess";
+                icon="success";
                 img="./images/icon-scissors.svg";
                 pvalue=document.getElementById("value");
                 num=parseInt(pvalue.innerHTML);
@@ -144,7 +144,7 @@ function play(type){
         case 5:
             randomNum="paper";
             if(type=="scissors"){
-                icon="sucess";
+                icon="success";
                 img="./images/icon-scissors.svg";
                 status="win";
                 pvalue=document.getElementById("value");
