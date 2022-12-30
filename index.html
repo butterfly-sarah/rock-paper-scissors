@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.6.15/sweetalert2.min.js" integrity="sha512-Z4QYNSc2DFv8LrhMEyarEP3rBkODBZT90RwUC7dYQYF29V4dfkh+8oYZHt0R6T3/KNv32/u0W6icGWUUk9V0jA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.6.15/sweetalert2.css" integrity="sha512-JzSVRb7c802/njMbV97pjo1wuJAE/6v9CvthGTDxiaZij/TFpPQmQPTcdXyUVucsvLtJBT6YwRb5LhVxX3pQHQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container">
+  <span class="spann" id="three">
+  <span class="spann">ROCK</span>
+  <span class="spann">PAPER</span>
+  <span class="spann">SCISSORS</span>
+  </span>
+  <span class="spann" id="score"><p>score</p><p id="value">0</p></span>
+</div>
+<div id="two">
+  <span class="spann" onclick="play('paper');"><img src="./images/icon-paper.svg" alt=""></span>
+  <span class="spann" onclick="play('scissors');"><img src="./images/icon-scissors.svg" alt=""></span>
+</div>
+  <div id="rock">
+    <span class="spann" onclick="play('rock');">
+    <img src="./images/icon-rock.svg"></img></div>
+  </span>
+
+  
+  
+  <script src="js.js"></script>
+</body>
+</html>
